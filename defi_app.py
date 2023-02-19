@@ -3,10 +3,8 @@ from datetime import datetime
 import pandas as pd
 import pandas_ta as ta
 import numpy as np
-import cufflinks as cf
 import plotly.express as px
 from utils.helper import token_candles_timed
-cf.go_offline()
 
 tokens = ["UNIUSDT", "LDOUSDT", "AAVEUSDT", "CRVUSDT", "MKRUSDT", 
           "SNXUSDT", "LRCUSDT", "DYDXUSDT", "1INCHUSDT", "KAVAUSDT",
